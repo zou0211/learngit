@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
+<title>五谷村下载</title>
+<link href="css/download.css" rel="stylesheet"/>
+</head>
+<body>
+	<img src="images/download_ad.png" />
+    <!--<div class="down-logo">
+        <img src="images/logo.png" />
+    </div>-->
+    <div class="download-btn">
+        <a href="#" class="android"></a>
+        <a href="#" class="iphone"></a>
+    </div>
+    <div class="cover">
+        <div class="cover-inner">
+            <img src="images/live.png" />
+        </div>
+    </div>
+    <script src="js/fontSize.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            function is_weixin() {
+                    var ua = navigator.userAgent.toLowerCase();
+                    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+            var isWeixin = is_weixin();
+            if(isWeixin){
+                $(".cover").show();
+                $("body").on('touchmove',function(event){event.preventDefault();});
+            }
+        })
+    </script>
+</body>
+</html>
