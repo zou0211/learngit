@@ -38,6 +38,7 @@ body { font-size:14px; font-family:"微软雅黑"; overflow-x: hidden;}
 
 .bor_two{
 	border: 1px solid red;
+	display: none;
 }
 .hide{
 	display: none;
