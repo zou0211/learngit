@@ -1,4 +1,4 @@
-/**-----重置样式-----**/
+﻿/**-----重置样式-----**/
 html,body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
 em,i { font-style:normal; }
 ul,li { list-style:none; }
@@ -37,7 +37,7 @@ body { font-size:14px; font-family:"微软雅黑"; overflow-x: hidden;}
 }
 
 .bor_two{
-	border: 1px solid black;
+	border: 1px solid red;
 }
 .hide{
 	display: none;
